@@ -1,0 +1,238 @@
+﻿@model X.PagedList.IPagedList<BTL_ASP.NetCore.Areas.Admin.Models.DataModels.Product>
+@using X.PagedList.Mvc.Core;
+
+<div class="banners-section container mt-4">
+    <div class="banners-slider owl-carousel owl-theme dots-mt-1" data-owl-options="{
+                        'loop': false,
+                        'nav': false,
+                        'margin': 20,
+                        'responsive': {
+                            '768': {
+                                'items': 3
+                            },
+                            '576': {
+                                'items': 2
+                            }
+                        }
+                    }">
+        <div class="banner">
+            <img src="/User/assets/images/demoes/demo14/banners/banner1.jpg" width="360" height="280" alt="category banner">
+            <div class="banner-content bg-dark text-center">
+                <h5 class="m-b-1">
+                    <a href="demo14-shop.html">Save Up To</a>
+                </h5>
+                <h4 class="text-white m-b-1">$100</h4>
+                <h5 class="text-white mb-0">on Porto Watch Series 5</h5>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="/User/assets/images/demoes/demo14/banners/banner2.jpg" width="360" height="280" alt="category banner">
+            <div class="banner-content bg-dark text-center">
+                <h5 class="m-b-1">
+                    <a href="demo14-shop.html">Save Up To</a>
+                </h5>
+                <h4 class="text-white m-b-1">$80</h4>
+                <h5 class="text-white mb-0">on Porto Pods Professional</h5>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="/User/assets/images/demoes/demo14/banners/banner3.jpg" width="360" height="280" alt="category banner">
+            <div class="banner-content bg-dark text-center">
+                <h5 class="m-b-1">
+                    <a href="demo14-shop.html">Save Up To</a>
+                </h5>
+                <h4 class="text-white m-b-1">$90</h4>
+                <h5 class="text-white mb-0">on Bluetooth Speaker</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-product-tabs product-slider-tab pt-5 pt-md-0">
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+           
+        </ul>
+        <div class="tab-content m-b-4">
+            <div class="tab-pane fade show active" id="featured-products" role="tabpanel" aria-labelledby="featured-products-tab">
+                <div class="tab-products-carousel owl-carousel owl-theme quantity-inputs show-nav-hover nav-outer nav-image-center" data-owl-options="{
+                                    'loop': false
+                                }">
+
+                    <!-- product  -->
+                    @foreach (var item in Model)
+                    {
+                        <div class="product-default inner-quickview inner-icon quantity-input">
+                            <figure>
+                                <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@item.ProductId">
+                                    <img src="@item.Image" width="30" height="30" alt="">
+                                </a>
+                                <div class="label-group">
+                                    <span class="product-label label-hot">HOT</span>
+                                    <span class="product-label label-sale">-20%</span>
+                                </div>
+                                <div class="btn-icon-group">
+                                    <a  class="btn-icon btn-icon-wish">
+                                        <i class="icon-heart"></i>
+                                    </a>
+                                </div>
+                                <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@item.ProductId" class="btn-quickview" title="Quick View">Quick View</a>
+                            </figure>
+                            <div class="product-details">
+                                <div class="category-list">
+                                    <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@item.ProductId" class="product-category">@item.Category.CategoryName</a>
+                                </div>
+                                <h3 class="product-title">
+                                    <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@item.ProductId">@item.ProductName</a>
+                                </h3>
+                                <div class="ratings-container">
+                                    <div class="product-ratings">
+                                        <span class="ratings" style="width:0%"></span>
+                                        <!-- End .ratings -->
+                                        <span class="tooltiptext tooltip-top"></span>
+                                    </div>
+                                    <!-- End .product-ratings -->
+                                </div>
+                                <!-- End .product-container -->
+                                <div class="price-box">
+                                    <span class="">@item.Price</span>
+                                </div>
+                                <!-- End .price-box -->
+                                <a asp-action="AddCart" asp-controller="ShopCart" asp-route-id="@item.ProductId" class="btn btn-dark ">
+                                    Add to Cart
+                                </a>
+                            </div>
+                            <!-- End .product-details -->
+                        </div>
+                    }
+                </div>
+                <!-- End .products-carousel -->
+            </div>
+            <!-- End .tab-pane -->          
+        
+        </div>
+                <!-- End .products-carousel -->
+            </div>
+            <!-- End .tab-pane -->
+        </div>
+
+
+<ul class="pagination toolbox-item">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, sortOrder = ViewBag.Sort }),
+            new PagedListRenderOptions
+    {
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" }
+    }
+            )
+
+</ul>
+<!-- End .home-product-tabs -->
+
+<div class="feature-boxes-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box mx-md-3 feature-box-simple text-center">
+                    <i class="icon-earphones-alt"></i>
+
+                    <div class="feature-box-content">
+                        <h3>Customer Support</h3>
+                        <h5>Need Assistance?</h5>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapib.</p>
+                    </div>
+                    <!-- End .feature-box-content -->
+                </div>
+                <!-- End .feature-box -->
+            </div>
+            <!-- End .col-md-4 -->
+
+            <div class="col-md-4">
+                <div class="feature-box mx-md-3 feature-box-simple text-center">
+                    <i class="icon-credit-card"></i>
+
+                    <div class="feature-box-content">
+                        <h3>Secured Payment</h3>
+                        <h5>Safe &amp; Fast</h5>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapibus lacus. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <!-- End .feature-box-content -->
+                </div>
+                <!-- End .feature-box -->
+            </div>
+            <!-- End .col-md-4 -->
+
+            <div class="col-md-4">
+                <div class="feature-box mx-md-3 feature-box-simple text-center">
+                    <i class="icon-action-undo"></i>
+
+                    <div class="feature-box-content">
+                        <h3>Returns</h3>
+                        <h5>Easy &amp; Free</h5>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapib.</p>
+                    </div>
+                    <!-- End .feature-box-content -->
+                </div>
+                <!-- End .feature-box -->
+            </div>
+            <!-- End .col-md-4 -->
+        </div>
+        <!-- End .row -->
+    </div>
+    <!-- End .container -->
+</div>
+
+<div class="promo-section bg-gray" data-parallax="{'speed': 2, 'enableOnMobile': true}" data-image-src="/User/assets/images/demoes/demo14/banners/promo-bg.png">
+    <div class="promo-banner banner container text-uppercase">
+        <div class="banner-content row align-items-center text-center">
+            <div class="col-md-4 ml-xl-auto text-md-right left-text">
+                <h2 class="mb-md-0">
+                    Top electronic
+                    <br>Deals
+                </h2>
+            </div>
+            <div class="col-md-3 pb-4 pb-md-0">
+                <a href="#" class="btn btn-primary ls-10">View Sale</a>
+            </div>
+            <div class="col-md-4 mr-xl-auto text-md-left right-text">
+                <h4 class="mb-1 coupon-sale-text p-0 d-block text-transform-none">
+                    <b class="bg-dark text-white font1">Exclusive COUPON</b>
+                </h4>
+                <h5 class="mb-2 coupon-sale-text ls-10 p-0">
+                    <i class="ls-0">UP TO</i>
+                    <b class="text-white bg-secondary">$100</b> OFF
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="brands-slider owl-carousel owl-theme images-center mt-4" data-owl-options="{
+                        'responsive': {
+                            '0': {
+                                'items': 1
+                            },
+                            '480': {
+                                'items': 2
+                            },
+                            '576': {
+                                'items': 3
+                            },
+                            '992': {
+                                'items': 4
+                            }
+                        }
+                    }">
+        <img src="/User/assets/images/brands/small/brand1.png" width="140" height="60" alt="brand">
+        <img src="/User/assets/images/brands/small/brand2.png" width="140" height="60" alt="brand">
+        <img src="/User/assets/images/brands/small/brand3.png" width="140" height="60" alt="brand">
+        <img src="/User/assets/images/brands/small/brand4.png" width="140" height="60" alt="brand">
+        <img src="/User/assets/images/brands/small/brand5.png" width="140" height="60" alt="brand">
+        <img src="/User/assets/images/brands/small/brand6.png" width="140" height="60" alt="brand">
+    </div>
+</div>
+<!-- End .brands-slider -->

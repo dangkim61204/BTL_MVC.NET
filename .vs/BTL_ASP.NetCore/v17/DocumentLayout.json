@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\utilitie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\utilitie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\shopcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\shopcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\viewmodels\\cartitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\viewmodels\\cartitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\sessionextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\sessionextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\models\\datamodels\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\models\\datamodels\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|d:\\laptrinh\\sem3_asp.net\\asp.net\\btl_asp.netcore\\btl_asp.netcore\\views\\shopcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB69DC77-36C0-4876-AECA-1A9C5ECF3F5E}|BTL_ASP.NetCore\\BTL_ASP.NetCore.csproj|solutionrelative:btl_asp.netcore\\views\\shopcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:00:24.338Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:06:45.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwH4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:00:31.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:16:21.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:21:40.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilitie.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\Utilitie.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\Utilitie.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\Utilitie.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\Utilitie.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:47:03.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Account.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Account.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Account.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Account.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:52:37.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Order.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Order.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Order.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:57:07.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T15:03:54.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:47:45.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T17:36:18.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADIDAAAAAAAAAAAAADsDAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T13:13:08.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutHome.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Shared\\_LayoutHome.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\Shared\\_LayoutHome.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\Shared\\_LayoutHome.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\Shared\\_LayoutHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkDAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T12:42:44.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T12:42:25.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T12:42:06.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShopCartController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\ShopCartController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\ShopCartController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\ShopCartController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\ShopCartController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:49:00.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:39:58.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\CartItem.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\CartItem.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:25:54.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConnectDb.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\ConnectDb.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\ConnectDb.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\ConnectDb.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\ConnectDb.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:27:43.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\appsettings.json",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\appsettings.json",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\appsettings.json",
+              "RelativeToolTip": "BTL_ASP.NetCore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T15:47:01.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartItemView.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\ViewModels\\CartItemView.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\ViewModels\\CartItemView.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\ViewModels\\CartItemView.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\ViewModels\\CartItemView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:47:36.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SessionExtention.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\SessionExtention.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\SessionExtention.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\SessionExtention.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\SessionExtention.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:30:07.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Program.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Program.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Program.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:47:39.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Product.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Product.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Product.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Product.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA8wCwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:51:03.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Category.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Category.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Category.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\Category.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:50:30.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\OrderDetail.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\OrderDetail.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Models\\DataModels\\OrderDetail.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:51:10.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Controllers\\ShopController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:10:55.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:41:17.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:09:37.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:09:10.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\ShopCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASP.NetCore\\Views\\ShopCart\\Index.cshtml",
+              "ToolTip": "D:\\LAPTRINH\\sem3_asp.net\\asp.net\\BTL_ASP.NetCore\\BTL_ASP.NetCore\\Views\\ShopCart\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASP.NetCore\\Views\\ShopCart\\Index.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAiwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:00:24.229Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

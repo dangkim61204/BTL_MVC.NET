@@ -1,0 +1,105 @@
+﻿@model BTL_ASP.NetCore.Areas.Admin.Models.DataModels.Account
+@{
+    ViewData["Title"] = "Register";
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng ký tài khoản</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/Admin/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="/Admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/Admin/dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-logo">
+            <a href="../../index2.html">Đăng Ký</a>
+        </div>
+        <!-- /.login-logo -->
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Sign in to start your session</p>
+                
+                <form asp-action="Index" asp-controller="Register" method="post">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="Email" placeholder="Email...">
+                       
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="UserName" placeholder="Username...">
+                        
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="FullName" placeholder="FullName...">
+                       
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" asp-for="Password" placeholder="Password">
+                       
+                    </div>
+                  @*   <div class="input-group mb-3">
+
+                        <div>
+                            <input type="radio" name="gender" value="nam" checked />
+                            <label for="nam">Nam</label>
+                        </div>
+                        <div>
+                            <input type="radio"  name="gender" value="nu" />
+                            <label for="nu">Nữ</label>
+                        </div>
+                    </div> *@
+
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="Phone" placeholder="Phone...">
+                        
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="Address" placeholder="Address...">
+                      
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="icheck-primary">
+                                <input type="checkbox" id="remember">
+                                <label for="remember">
+                                    Remember Me
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary btn-block">Đăng Ký</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                </form>
+
+                <a asp-action="Index" asp-controller="Login" class="text-center">
+                    Đăng Nhập tài khoản
+                </a>
+
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+    <!-- /.login-box -->
+    <!-- jQuery -->
+    <script src="/Admin/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/Admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/Admin/dist/js/adminlte.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+﻿@* @model IEnumerable<BTL_ASP.NetCore.Areas.Admin.Models.DataModels.Category> *@
+    @model X.PagedList.IPagedList<BTL_ASP.NetCore.Areas.Admin.Models.DataModels.Category>
+    @using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Danh sách danh mục</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().CategoryName)
+            </th>
+            <th>
+                Chức năng
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-primary">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger" onclick="return confirm('Bạn có muốn xoá không?')">Xoá</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+    new PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+}
+    )

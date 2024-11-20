@@ -1,0 +1,59 @@
+﻿@model BTL_ASP.NetCore.Areas.Admin.Models.DataModels.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Thêm mới sản phẩm</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Code" class="control-label"></label>
+                <input asp-for="Code" class="form-control" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label"></label>
+                <input asp-for="ProductName" class="form-control" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input type="file" name="filePicture" class="form-control" />
+                <span  class="text-danger"></span>
+                <span style="color:red;" >@ViewBag.msg</span>
+            </div>        
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" value="0" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+               
+                <label asp-for="Desciption" class="control-label"></label>
+                <textarea name="Desciption" id="description" class="form-control "></textarea>
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Thêm mới" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-success">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+</div>
+
